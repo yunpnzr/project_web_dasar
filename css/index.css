@@ -48,11 +48,21 @@ table {
 	border-spacing: 0;
 }
 
-//INPUT CSS DISINI!
-.jumbotron{
-
-}
-
+/*CSS CONTENT*/
 .navbar{
-    
+	display: flex;
 }
+
+.logo{
+	margin-top: 25px;
+	margin-left: 50px;
+}
+
+.logo-size{
+	height: 75px;
+	width: 100px;
+}
+
+/*.jumbotron{*/
+    /*background-image: url(../pict/landmark_jakarta.png);*/
+/*}*/
