@@ -51,6 +51,7 @@ table {
 /*CSS CONTENT*/
 .navbar{
 	display: flex;
+	float: right;
 }
 
 .logo{
@@ -61,6 +62,17 @@ table {
 .logo-size{
 	height: 75px;
 	width: 100px;
+}
+
+.navigation{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.navigation ul li{
+	margin-top: 50px;
+	margin-left: 25px;
+	display: inline-block;
 }
 
 /*.jumbotron{*/
