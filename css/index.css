@@ -6,13 +6,14 @@ body {
 
 /*navbar*/
 .navbar{
-	margin-top: 25px;
+	margin-top: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 25px;
 	display: flex;
 	justify-content: space-between;
   	align-items: center;
+	z-index: 999;
 }
 
 .logo {
