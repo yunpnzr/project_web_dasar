@@ -4,11 +4,24 @@ body {
     padding: 0;
 }
 
+/*navbar*/
 .navbar{
 	margin-top: 25px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+  	align-items: center;
+}
+
+.logo {
+    float: left;
+}
+
+.logo-size{
+	height: 75px;
+	width: 100px;
 }
 
 .nav-menu {
@@ -25,11 +38,9 @@ body {
 	margin-left: 25px;
 }
 
-.logo {
-    float: left;
-}
-
-.logo-size{
-	height: 75px;
-	width: 100px;
+/*Jumbotron*/
+.jumbotron{
+	background-image: url("../pict/landmark_jakarta.png");
+	background-repeat: no-repeat;
+	height: 500px;
 }
