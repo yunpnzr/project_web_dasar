@@ -6,14 +6,19 @@ body {
 
 /*navbar*/
 .navbar{
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-right: 50px;
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
 	margin-bottom: 15px;
-	display: flex;
+	display: block;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	position: fixed;
 	justify-content: space-between;
   	align-items: center;
 	z-index: 999;
+	background-color: white;
 }
 
 .logo {
@@ -36,7 +41,7 @@ body {
 .nav-menu li {
     display: inline;
     list-style-type: none;
-	margin-left: 25px;
+	margin-left: 35px;
 }
 
 /*Jumbotron*/
@@ -45,6 +50,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 900px;
+	margin-top: 75px;
 }
 
 .content-jumbotron{
