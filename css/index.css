@@ -32,10 +32,9 @@ body {
 
 .nav-menu {
 	float: right;
-	margin-right: 75px;
+	margin-right: 90px;
     font-size: 18px;
     font-weight: 500;
-    text-decoration: none;
     color: black;
 }
 
@@ -43,6 +42,18 @@ body {
     display: inline;
     list-style-type: none;
 	margin-left: 35px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.link-nav{
+	color: black;
+}
+
+.link-nav:hover{
+	color: #B45600;
 }
 
 /*Jumbotron*/
@@ -57,4 +68,8 @@ body {
 .content-jumbotron{
 	margin-left: 50px;
 	padding-top: 100px;
+}
+
+.header{
+	color: #B45600;
 }
