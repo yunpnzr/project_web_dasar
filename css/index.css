@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-nav {
+.nav-menu {
     float: right;
     padding-top: 25px;
 	padding-right: 25px;
@@ -14,7 +14,7 @@ nav {
     color: black;
 }
 
-nav li {
+.nav-menu li {
     display: inline;
     list-style-type: none;
     margin-right: 25px;
