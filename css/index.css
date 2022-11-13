@@ -4,10 +4,15 @@ body {
     padding: 0;
 }
 
+.navbar{
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
 .nav-menu {
     float: right;
-    padding-top: 25px;
-	padding-right: 25px;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
@@ -17,13 +22,11 @@ body {
 .nav-menu li {
     display: inline;
     list-style-type: none;
-    margin-right: 25px;
+	margin-left: 25px;
 }
 
 .logo {
     float: left;
-    margin-top: 25px;
-	margin-left: 50px;
 }
 
 .logo-size{
