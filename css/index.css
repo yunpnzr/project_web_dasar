@@ -6,10 +6,10 @@ body {
 
 /*navbar*/
 .navbar{
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	display: flex;
 	justify-content: space-between;
   	align-items: center;
@@ -41,7 +41,13 @@ body {
 
 /*Jumbotron*/
 .jumbotron{
-	background-image: url("../pict/landmark_jakarta.png");
+	background-image: url(../pict/landmark_jakarta.jpg);
+	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 900px;
+}
+
+.content-jumbotron{
+	margin-left: 50px;
+	padding-top: 100px;
 }
