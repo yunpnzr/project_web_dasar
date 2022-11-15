@@ -18,6 +18,10 @@ body {
 	justify-content: space-between;
   	align-items: center;
 	z-index: 999;
+	/*background-color: white;*/
+}
+
+.navbar-background{
 	background-color: white;
 }
 
@@ -59,10 +63,10 @@ a{
 /*Jumbotron*/
 .jumbotron{
 	background-image: url(../pict/landmark_jakarta.jpg);
-	background-size: cover;
+	background-size: 1512px 900px;
 	background-repeat: no-repeat;
 	height: 900px;
-	margin-top: 75px;
+	/*margin-top: 75px;*/
 }
 
 .content-jumbotron{

@@ -10,10 +10,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
     </style>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--navbar-->
-    <div class="navbar">
+    <div id="navbar" class="navbar">
         <div class="logo">
             <img class="logo-size" src="pict/logo.png" alt="logo seputar jakarta" srcset="">
         </div>
@@ -41,5 +43,19 @@
             </div>
         </div>
     </div>
+
+    <!--Script jquery-->
+    <script>
+        $(window).scroll(function(){
+            if ($(this).scrollTop()>50){
+                $('#navbar').addClass('navbar-background');
+                //$('#navbar').removeClass('py-5 mb-3');
+            } else{
+                $('#navbar').removeClass('navbar-background');
+                //$('#navbar').addClass('py-5 mb-3');
+            }
+        });    
+    </script>
+
 </body>
 </html>
