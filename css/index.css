@@ -79,3 +79,18 @@ a{
 .header{
 	color: #B45600;
 }
+
+/*container-fluid*/
+.container-fluid{
+	padding-top: 100px;
+	text-align:center;
+	background-color: beige;
+	color: saddlebrown;
+	height: 200px;
+	letter-spacing: 5px;
+}
+
+.content-container-fluid{
+	letter-spacing: normal;
+	color: black;
+}
