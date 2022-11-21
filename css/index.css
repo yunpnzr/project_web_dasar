@@ -79,3 +79,11 @@ a{
 .header{
 	color: #B45600;
 }
+
+/*container-fluid*/
+.container-fluid{
+	padding-top: 100px;
+	text-align:center;
+	background-color: beige;
+	height: 200px;
+}
