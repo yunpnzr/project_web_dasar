@@ -36,7 +36,8 @@ body {
 
 .nav-menu-1 {
 	float: right;
-	margin-right: 90px;
+	/*margin-right: 90px;*/
+	margin-top: 20px;
     font-size: 18px;
     font-weight: 500;
     color: black;
