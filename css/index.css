@@ -166,3 +166,153 @@ a{
 	height: 200px;
 }
 
+.container-fluid-5{
+	padding-top: 60px;
+	background-color: blanchedalmond;
+	height: 650px;
+	color: saddlebrown;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.container-fluid-5-content{
+	color: black;
+	letter-spacing: normal;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 50px;
+}
+
+.container-fluid-6{
+	padding-top: 50px;
+	text-align:center;
+	background-color: white;
+	height: 350px;
+	color: white;
+}
+
+.container-fluid-6-content{
+	background:  rgba(0, 0, 0, .65) url(../pict/rumah_penduduk.jpeg);
+	background-blend-mode: darken;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 50px;
+	height: 250px;
+}
+
+.container-fluid-7{
+	padding-top: 60px;
+	background-color: blanchedalmond;
+	height: 650px;
+	color: saddlebrown;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.container-fluid-7-content{
+	color: black;
+	letter-spacing: normal;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 50px;
+}
+
+.container-fluid-8{
+	padding-top: 50px;
+	background-color: white;
+	height: 400px;
+	color: white;
+}
+
+.container-fluid-8-content{
+	background-image: url(../pict/elang_bondol.jpg);
+	background-position-y: -200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 50px;
+	height: 300px;
+}
+
+.container-fluid-8-content-2{
+	text-align:left;
+	margin-left: 50px;
+}
+
+.container-fluid-9{
+	padding-top: 60px;
+	background-color: blanchedalmond;
+	height: 650px;
+	color: saddlebrown;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.container-fluid-9-content{
+	color: black;
+	letter-spacing: normal;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 50px;
+}
+
+.container-fluid-10{
+	padding-top: 50px;
+	background-color: white;
+	height: 400px;
+	color: white;
+}
+
+.container-fluid-10-content{
+	background-image: url(../pict/fatahillah_sore.jpg);
+	background-position-y: -300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 50px;
+	height: 300px;
+}
+
+.container-fluid-11{
+	padding-top: 60px;
+	background-color: blanchedalmond;
+	height: 650px;
+	color: saddlebrown;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.container-fluid-11-content{
+	color: black;
+	letter-spacing: normal;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 50px;
+}
+
+.container-fluid-12{
+	padding-top: 50px;
+	background-color: white;
+	height: 300px;
+	color: white;
+}
+
+.container-fluid-12-content{
+	background-image: url(../pict/jalan_jakarta.jpg);
+	background-position-y: -300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 50px;
+	height: 200px;
+}
