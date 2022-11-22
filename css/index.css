@@ -147,15 +147,21 @@ a{
 }
 
 .container-fluid-4{
-	padding-top: 100px;
+	padding-top: 50px;
 	text-align:center;
 	background-color: white;
 	height: 300px;
+	color: white;
 }
 
 .container-fluid-4-content{
-	background-image: url(../pict/Skyline-Jakarta-Indonesia.jpg);
+	background:  rgba(0, 0, 0, .65) url(../pict/Skyline-Jakarta-Indonesia.jpg);
+	background-blend-mode: darken;
+	background-repeat: no-repeat;
+	background-size: 1200px 250px;
 	margin-left: 50px;
 	margin-right: 50px;
 	border-radius: 50px;
+	height: 200px;
 }
+
