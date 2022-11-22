@@ -5,7 +5,7 @@ body {
 }
 
 /*navbar*/
-.navbar{
+.navbar-1{
 	padding-top: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -34,7 +34,7 @@ body {
 	width: 100px;
 }
 
-.nav-menu {
+.nav-menu-1 {
 	float: right;
 	margin-right: 90px;
     font-size: 18px;
@@ -42,7 +42,7 @@ body {
     color: black;
 }
 
-.nav-menu li {
+.nav-menu-1 li {
     display: inline;
     list-style-type: none;
 	margin-left: 35px;
@@ -52,18 +52,18 @@ a{
 	text-decoration: none;
 }
 
-.link-nav{
+.link-nav-1{
 	color: black;
 }
 
-.link-nav:hover{
+.link-nav-1:hover{
 	color: #B45600;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #B45600;
 }
 
 /*Jumbotron*/
-.jumbotron{
+.jumbotron-1{
 	background-image: url(../pict/landmark_jakarta.jpg);
 	background-size: 1512px 900px;
 	background-repeat: no-repeat;
@@ -76,7 +76,7 @@ a{
 	padding-top: 100px;
 }
 
-.header{
+.header-1{
 	color: #B45600;
 }
 
