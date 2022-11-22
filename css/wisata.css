@@ -2,6 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #FFCEB2;
 }
 
 /*navbar*/
@@ -60,13 +61,18 @@ a{
 .link-navigation-1:hover{
 	color: #B45600;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #B45600;
+	/*border-bottom: 1px solid #B45600;*/
 }
 
 /*Jumbotron*/
 .jumbotron-1{
-    background-image: url(../pict/landmark_jakarta.jpg);
-	background-size: 1512px 900px;
+    background-image: url(../pict/fatahillah.jpg);
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 900px;
+}
+
+/*content 1*/
+.judul{
+    letter-spacing: 5px;
 }

@@ -60,7 +60,7 @@ a{
 .link-nav-1:hover{
 	color: #B45600;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #B45600;
+	/*border-bottom: 1px solid #B45600;*/
 }
 
 /*Jumbotron*/
