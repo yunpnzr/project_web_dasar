@@ -64,3 +64,9 @@ a{
 }
 
 /*Jumbotron*/
+.jumbotron-1{
+    background-image: url(../pict/landmark_jakarta.jpg);
+	background-size: 1512px 900px;
+	background-repeat: no-repeat;
+	height: 900px;
+}
