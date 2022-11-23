@@ -107,8 +107,8 @@ hr{
 }
 
 .picture-content-1 img{
-	width: 300px;
-	height: 220px;
+	width: 350px;
+	height: 250px;
 	border-radius: 10px;
 }
 
@@ -118,6 +118,7 @@ hr{
 
 .tagg{
 	display: inline-flex;
+	font-size: 14px;
 }
 
 .tag-1 p{
@@ -143,3 +144,18 @@ hr{
 	font-style: italic;
 	font-size: 14px;
 }
+
+.text-content-main p{
+	font-size: 18px;
+}
+
+.text-content-main p a{
+	font-style: italic;
+	text-decoration: none;
+	color: rgb(0, 88, 88);
+}
+
+.text-content-main p a:hover{
+	font-style: italic;
+	text-decoration: none;
+	color: aqua;
