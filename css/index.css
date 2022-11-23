@@ -2,6 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
+	background-color: blanchedalmond;
 }
 
 /*navbar*/
@@ -364,3 +365,92 @@ a{
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%42210D' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }*/
+
+.footer{
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-distributed{
+	background-color: blanchedalmond;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 20px 50px;
+	
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed .logo-size-footer{
+	height: 125px;
+	width: 150px;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+
+
+.footer-distributed .footer-center i{
+	background-color: blanchedalmond;
+	font-size: 30px;
+	width: 40px;
+	height: 40px;
+
+	text-align: center;
+	
+	margin: 10px 10px;
+	vertical-align: middle;
+	color:saddlebrown;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+	margin-left: -120px;
+}
+
+
+
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+	text-align: center;
+	margin: 40px 10px;
+}
+
+
+.fixed-footer {
+    width: 100%;
+    position: relative;
+    background:blanchedalmond;
+    margin: 0 10px 30px 0;
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+  }
+  .fixed-footer {
+    bottom: 0;
+  }
+
