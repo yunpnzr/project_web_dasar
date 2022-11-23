@@ -7,10 +7,10 @@ body {
 
 /*navbar*/
 .navigation-1{
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-bottom: 15px;
+	padding-bottom: 10px;
 	display: block;
 	overflow: hidden;
 	top: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-background-1{
-	background-color: white;
+	background-color: #FFCEB2;
 }
 
 .logo {
@@ -73,6 +73,15 @@ a{
 }
 
 /*content 1*/
+.content-1{
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
 .judul{
     letter-spacing: 5px;
+	font-weight: bold;
 }
