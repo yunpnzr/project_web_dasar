@@ -72,8 +72,8 @@ a{
 	height: 900px;
 }
 
-/*content 1*/
-.content-1{
+/*Judul*/
+.judul-1{
 	margin-top: 100px;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -85,3 +85,5 @@ a{
     letter-spacing: 5px;
 	font-weight: bold;
 }
+
+/*Content-1*/
