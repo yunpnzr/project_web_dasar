@@ -1,5 +1,5 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 	background-color: blanchedalmond;
@@ -378,7 +378,7 @@ a{
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 16px 'Times New Roman', Times, serif;
 	padding: 50px 50px 20px 50px;
 	
 }
@@ -393,7 +393,7 @@ a{
 /* Footer left */
 
 .footer-distributed .footer-left{
-	width: 30%;
+	width: 20%;
 }
 
 .footer-distributed .logo-size-footer{
@@ -437,13 +437,34 @@ a{
 /* Footer Right */
 
 .footer-distributed .footer-right{
-	width: 30%;
+	width: 40%;
 	text-align: center;
 	margin: 40px 10px;
+	
 }
 
+input[type=submit] {
+    
+    font-size: 15px;
+    background: saddlebrown;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+	height: 40px;
+    
+}
+
+input[type=email] {
+	
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 10px 20px;
+	width: 290px;
+	height: 30px;
+}
 
 .fixed-footer {
+	font-family: 'Times New Roman', Times, serif;
     width: 100%;
     position: relative;
     background:blanchedalmond;
