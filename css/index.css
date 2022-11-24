@@ -66,7 +66,9 @@ a{
 
 /*Jumbotron*/
 .jumbotron-1{
-	background-image: url(../pict/landmark_jakarta.jpg);
+	background-image: url(../pict/landmark_jakarta.png);
+	/*backdrop-filter: drop-shadow(10px 10px 8px black);*/
+	/*kenapa ga bisa??*/
 	background-size: 1512px 900px;
 	background-color: white;
 	background-repeat: no-repeat;
@@ -89,13 +91,15 @@ a{
 	padding-top: 100px;
 	text-align:center;
 	background-color: beige;
-	color: saddlebrown;
+	color: rgb(49, 24, 6);
 	height: 300px;
 	letter-spacing: 5px;
 }
 
 .content-container-fluid{
 	letter-spacing: normal;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
 	color: black;
 }
 
@@ -107,7 +111,7 @@ a{
 }
 
 .container-fluid-2-content{
-	color: saddlebrown;
+	color: rgb(49, 24, 6);
 	letter-spacing: 5px;
 	margin-left: 50px;
 }
@@ -173,7 +177,7 @@ a{
 	padding-top: 60px;
 	background-color: blanchedalmond;
 	height: 650px;
-	color: saddlebrown;
+	color: rgb(49, 24, 6);
 	letter-spacing: 5px;
 	text-align: center;
 }
@@ -211,7 +215,7 @@ a{
 	padding-top: 60px;
 	background-color: blanchedalmond;
 	height: 650px;
-	color: saddlebrown;
+	color: rgb(49, 24, 6);
 	letter-spacing: 5px;
 	text-align: center;
 }
@@ -251,7 +255,7 @@ a{
 	padding-top: 60px;
 	background-color: blanchedalmond;
 	height: 650px;
-	color: saddlebrown;
+	color: rgb(49, 24, 6);
 	letter-spacing: 5px;
 	text-align: center;
 }
@@ -287,7 +291,7 @@ a{
 	padding-top: 60px;
 	background-color: blanchedalmond;
 	height: 650px;
-	color: saddlebrown;
+	color: rgb(49, 24, 6);
 	letter-spacing: 5px;
 	text-align: center;
 }
@@ -345,12 +349,13 @@ a{
 .carousel {
 	position: relative;
  }           
+
  .carousel-control-prev , .carousel-control-next {
-	
 	position: absolute;
 	top: 100%;
 	transform: TranslateY(-50%);
  }
+
  .carousel-control-prev {
 	right: auto;
 	left: 475px;
@@ -360,13 +365,6 @@ a{
 	right: 475px;
  }
 
- /*.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%42210D' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%42210D' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}*/
 
 .footer{
 	position: fixed;
@@ -422,7 +420,7 @@ a{
 	
 	margin: 10px 10px;
 	vertical-align: middle;
-	color:saddlebrown;
+	color:#B45600;
 }
 
 .footer-distributed .footer-icons{
@@ -446,7 +444,7 @@ a{
 input[type=submit] {
     
     font-size: 15px;
-    background: saddlebrown;
+    background: #B45600;
     color: white;
     border-radius: 15px;
     padding: 10px 20px;
