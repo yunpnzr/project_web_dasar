@@ -86,7 +86,12 @@ a{
 	font-weight: bold;
 }
 
-/*Content-1*/
+/*Full Content*/
+.content-all{
+	margin-bottom: 50px;
+}
+
+/*Content Wisata*/
 hr{
 	margin-left: 50px;
 	margin-right: 50px;
@@ -95,24 +100,24 @@ hr{
 	border-radius: 25px;
 }
 
-.content-1{
+.content-wisata{
 	margin-top: 25px;
 	margin-left: 50px;
 	margin-right: 50px;
 	display: flex;
 }
 
-.picture-content-1{
+.picture-content-wisata{
 	margin-right: 25px;
 }
 
-.picture-content-1 img{
+.picture-content-wisata img{
 	width: 350px;
 	height: 250px;
 	border-radius: 10px;
 }
 
-.text-content-1{
+.text-content-wisata{
 	margin-left: 25px;
 }
 
@@ -140,7 +145,7 @@ hr{
 	font-size: 24px;
 }
 
-.creator-content-1 p{
+.creator-content-wisata p{
 	font-style: italic;
 	font-size: 14px;
 }
@@ -160,3 +165,83 @@ hr{
 	text-decoration: none;
 	color: aqua
 }
+
+/*Footer*/
+.footer{
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-distributed{
+	background-color: blanchedalmond;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 20px 50px;
+	
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed .logo-size-footer{
+	height: 125px;
+	width: 150px;
+}
+
+
+/* Footer Center */
+.footer-distributed .footer-center{
+	width: 35%;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+.footer-distributed .footer-center i{
+	background-color: blanchedalmond;
+	font-size: 30px;
+	width: 40px;
+	height: 40px;
+
+	text-align: center;
+	
+	margin: 10px 10px;
+	vertical-align: middle;
+	color:saddlebrown;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+	margin-left: -120px;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right{
+	width: 30%;
+	text-align: center;
+	margin: 40px 10px;
+}
+
+
+.fixed-footer {
+    width: 100%;
+    position: relative;
+    background:blanchedalmond;
+    margin: 0 10px 0 0;
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+  }
+  .fixed-footer {
+    bottom: 0;
+  }
