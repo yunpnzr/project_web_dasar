@@ -77,13 +77,34 @@ a{
 	margin-top: 100px;
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
 .judul{
     letter-spacing: 5px;
 	font-weight: bold;
+}
+
+/*Button Pesan Tiket*/
+.button-ticket{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.button-ticket a input{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	font-size: 18px;
+	color: white;
+	border:none;
+	background-color: #309727;
+	width: 100%;
 }
 
 /*Full Content*/
@@ -140,9 +161,10 @@ hr{
 	border-radius: 5px;
 }
 
-.judul-content h2{
+.judul-content a h2{
 	font-weight: bold;
 	font-size: 24px;
+	color: black;
 }
 
 .creator-content-wisata p{
@@ -151,7 +173,7 @@ hr{
 }
 
 .text-content-main p{
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .text-content-main p a{
@@ -163,7 +185,7 @@ hr{
 .text-content-main p a:hover{
 	font-style: italic;
 	text-decoration: none;
-	color: aqua
+	color: #B45600;
 }
 
 /*Footer*/
