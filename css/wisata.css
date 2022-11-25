@@ -270,6 +270,8 @@ hr{
 
 .fixed-footer{
 	text-align: center;
+	font-size: 14px;
+	margin-top: 15px;
 	margin-bottom: 25px;
 }
 
