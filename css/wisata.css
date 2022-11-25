@@ -199,7 +199,7 @@ hr{
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: thin 16px sans-serif;
 	padding: 50px 50px 20px 50px;
 	
 }
@@ -230,16 +230,17 @@ hr{
 }
 
 .footer-distributed .footer-center i{
-	background-color: blanchedalmond;
 	font-size: 30px;
 	width: 40px;
 	height: 40px;
-
 	text-align: center;
-	
 	margin: 10px 10px;
 	vertical-align: middle;
-	color:saddlebrown;
+	color:rgb(238, 203, 151);
+}
+
+.footer-distributed .footer-center i:hover{
+	color: #965628;
 }
 
 .footer-distributed .footer-icons{
@@ -254,8 +255,7 @@ hr{
 	margin: 40px 10px;
 }
 
-
-.fixed-footer {
+/*.fixed-footer {
     width: 100%;
     position: relative;
     background:blanchedalmond;
@@ -266,4 +266,54 @@ hr{
   }
   .fixed-footer {
     bottom: 0;
-  }
+  }*/
+
+.fixed-footer{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+/*Form Footer*/
+.form-email{
+	width: 265px;
+	height: 36px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	border: none;
+	font-size: 14px;
+	font-family: 'EB Garamond', serif;
+	color: #965628;
+}
+
+.form-email:focus{
+	outline-style: solid;
+	outline-color: #965628;
+	outline-width: 3px;
+}
+
+/*form button*/
+.form-button{
+	margin-left: 10px;
+	height: 36px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #965628;
+	border-radius: 15px;
+	font-size: 14px;
+	font-family: 'EB Garamond', serif;
+	color: white;
+	border:none;
+}
+
+.form-button:hover{
+	background-color: #663b1d;
+}
+
+.form-button:focus{
+	outline-style: solid;
+	outline-color: #965628;
+	outline-width: 3px;
+}
