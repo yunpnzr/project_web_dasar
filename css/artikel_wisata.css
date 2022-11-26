@@ -2,7 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FDDA7F;
+    background-color: #C9FBC1;
 }
 
 /*navbar*/
@@ -62,4 +62,31 @@ a{
 	color: #B45600;
 	padding-bottom: 5px;
 	/*border-bottom: 1px solid #B45600;*/
+}
+
+/*Jumbotron*/
+.jumbotron-1{
+    background-image: url(../pict/fatahillah.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+/*Content*/
+.content-main{
+	width: 1160px;
+	margin: 10px auto;
+	background-color: white;
+	padding: 1px;
+}
+
+.isi-content{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.judul-main h1{
+	
 }
