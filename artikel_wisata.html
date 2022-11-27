@@ -14,7 +14,7 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
      <!--Font Style-->
      <style>
-         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Source+Sans+Pro&display=swap');
      </style>
      <!--Jquery-->
      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -42,14 +42,55 @@
 
     <!--Content-->
     <div class="content-main">
-        <div class="isi-content">
+        <!--<div class="isi-content">-->
             <div class="judul-main">
                 <h1>Kota Tua, Saksi Bisu Sejarah Ibukota</h1>
+                <div class="creator">
+                    <p>Penulis : yunpnzr pada 19 November 2022</p>
+                </div>
             </div>
-            <div>
-                
+            <div class="float-right-1">
+                <div class="card-nama">
+                    <h3>Tentang Penulis</h3>
+                    <img src="../project_web_dasar/pict/amin_richman.jpeg" alt="" srcset="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <hr>
             </div>
-        </div>
+            <div class="float-left-1">
+                <div class="content-article">
+                    <p>Kota Tua Batavia dengan Pelabuhan Sunda Kelapa adalah cikal bakal dari kota Jakarta saat ini. Melintasi wilayah Jakarta Utara dan Jakarta Barat, kawasan ini memiliki luas sekira 139 hektar yang didominasi bangunan arsitektur Eropa dan China dari abad ke-17 hingga awal abad ke-20.</p>
+
+                    <p>Pada abad ke-16 Batavia Lama (Oud Batavia) dijuluki "Permata Asia" dan "Ratu dari Timur" oleh pelayar Eropa, Jakarta Lama dianggap sebagai pusat perdagangan untuk benua Asia karena lokasinya yang strategis dan sumber daya melimpah.</p>
+                        
+                    <p>Kota Batavia didirikan di sebuah wilayah dulunya bernama Jayakarta (1527-1619). Daerah ini berdekatan dengan pelabuhan Kesultanan Banten yang bernama Sunda Kalapa. Jauh sebelumnya, pelabuhan tersebut sudah dirintis oleh Kerajaan Sunda sebagai sarana perdagangan antarpulau di Nusantara.</p>
+                        
+                    <p>Tahun 1619, VOC menghancurkan Jayakarta di bawah komando Jan Pieterszoon Coen. Satu tahun kemudian, VOC membangun kota baru bernama Batavia untuk menghormati Batavieren, leluhur bangsa Belanda. Kota ini terpusat di sekitar tepi timur Sungai Ciliwung, saat ini Lapangan Fatahillah.</p>
+                        
+                    <p>Nama Batavia digunakan sejak 1621 hingga tahun 1942 saat Jepang menaklukkannya. Jepang berikutnya mengganti nama Batavia menjadi Jakarta dan tidak berubah hingga saat ini.</p>
+                        
+                    <p>Awalnya areal kota Batavia seluas 139 hektar tetapi kemudian diperluas menjadi 846 hektar dimana termasuk di dalamnya Pelabuhan Sunda Kelapa, Pasar Ikan, hingga ke arah selatan yaitu Pecinan Glodok. Akan tetapi, wilayah inti kawasan kota tua sendiri meliputi Bangunan Balaikota atau Museum Fatahillah serta sekitarnya.</p>
+                        
+                    <p>Sebagai permukiman penting, pusat kota, dan pusat perdagangan di Asia sejak abad ke-16, Oud Batavia merupakan rumah bagi beberapa situs dan bangunan bersejarah di Jakarta.</p>
+                        
+                    <p>Sempatkan untuk mencoba sepeda ontel antik di pelataran Lapangan Fatahillah. Terdapat sekitar 50-an sepeda ontel yang disewakan. Rata-rata umur sepeda itu sudah tidak muda lagi. Bahkan, ada salah satu sepeda yang dibuat pada tahun 1904. Penyewa sepeda ontel bisa mengelilingi Lapangan Fatahillah, bahkan mengelilingi Kota Tua.</p>
+                        
+                    <p>Di Lapangan Fatahillah, terdapat Museum Sejarah Jakarta atau yang juga biasa disebut Museum Fatahillah dan diresmikan pada tanggal 30 Maret 1974. Terletak di Jalan Taman Fatahillah No. 2, Jakarta Barat.Anda dapat menyaksikan benda yang berhubungan dengan sejarah Jakarta, misalnya koleksi kebudayaan Betawi, numismatika (koleksi mata uang), becak, dan mebel antik dari abad 17-19, prasasti, replika peninggalan Kerajaan Tarumanegara dan Pajajaran, serta hasil penggalian arkeologi di Jakarta. Di halaman dalam, dipasang patung Dewa Hermes yang tadinya terletak di perempatan Harmoni dan meriam Si Jagur yang dianggap mempunyai kekuatan magis.</p>
+                        
+                    <p>Selain Museum Sejarah Jakarta ada beberapa Museum yang menarik seperti Museum Wayang, Museum Seni Rupa, dan Museum Mandiri.Kawasan ini juga sangat digemari fotografer yang ingin melatari fotonya dengan arsitektur bangunan tempo dulu.</p>
+                </div>
+            </div>
+        <!--</div>-->
     </div>
+
+    <script>
+        $(window).scroll(function(){
+            if ($(this).scrollTop()>250){
+                $('#navbar-1').addClass('navbar-background-1');
+            } else{
+                $('#navbar-1').removeClass('navbar-background-1');
+            }
+        });    
+    </script>
 </body>
 </html>

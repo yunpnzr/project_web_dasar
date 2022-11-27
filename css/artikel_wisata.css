@@ -1,8 +1,9 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'EB Garamond', serif;
     margin: 0;
     padding: 0;
-    background-color: #C9FBC1;
+    background-color: #ffff;
+	;
 }
 
 /*navbar*/
@@ -23,7 +24,7 @@ body {
 }
 
 .navbar-background-1{
-	background-color: #FDDA7F;
+	background-color: #ffff;
 }
 
 .logo {
@@ -74,19 +75,77 @@ a{
 
 /*Content*/
 .content-main{
-	width: 1160px;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	width: 1250px;
 	margin: 10px auto;
 	background-color: white;
-	padding: 1px;
+	/*background-color: yellow;*/
+	padding: 50px;
 }
 
-.isi-content{
+/*.isi-content{
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+}*/
+
+.judul-main{
+	margin-bottom: 30px;
 }
 
-.judul-main h1{
-	
+.float-left-1{
+	width: 800px;
+	border-right: 1px solid rgb(199, 199, 199);
+}
+
+.content-article{
+	margin-right: 50px;
+}
+
+.content-article p{
+	text-align: justify; 
+}
+
+/*Creator*/
+.creator p{
+	font-style: italic;
+	font-size: 14px;
+}
+
+.float-right-1{
+	width: 350px;
+	float: right;
+}
+
+.card-nama{
+	margin-left: 50px;
+	/*background-color: aquamarine;*/
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card-nama h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.card-nama img{
+	height: 90px;
+	width: 90px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.card-nama p{
+	font-size: 13px;
+	text-align: justify; 
+}
+
+hr{
+	margin-left: 50px;
 }
