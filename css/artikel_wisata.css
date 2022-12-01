@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffff;
-	;
 }
 
 /*navbar*/
@@ -223,7 +222,7 @@ hr{
 }
 
 .judul-content a h2:hover{
-	color: #B45600;;
+	color: #B45600;
 }
 
 .text-content-main p{
@@ -244,6 +243,68 @@ hr{
 }
 
 /*Tags*/
+.tag-artikel{
+	margin-left: 20px;
+	/*background-color: yellow;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.tag-artikel h2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.tag-artikel .tagg .tag-1 p{
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #B45600;
+	color: antiquewhite;
+}
+
+/*Komentar*/
+.comment{
+	margin-top: 50px;
+}
+
+.comment h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.comment-name{
+	margin-top: 20px;
+}
+
+.comment-name p{
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.inputan{
+	margin-top: 10px;
+	width: 800px;
+}
+
+.comment-name textarea{
+	margin-top: 10px;
+	resize: none;
+	width: 800px;
+	height: 100px;
+	padding: 10px;
+	border-radius: 10px;
+	border:2px solid #663b1d;
+}
+
+.comment-name textarea:focus{
+	outline-style: solid;
+	outline-color: #965628;
+	outline-width: 1px;
+}
 
 /*Footer*/
 .footer{
