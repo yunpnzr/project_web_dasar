@@ -288,6 +288,16 @@ hr{
 .inputan{
 	margin-top: 10px;
 	width: 800px;
+	padding: 10px;
+	border-radius: 10px;
+	border:2px solid #B45600;
+	color: #000000;
+	outline: none;
+	font-size: 16px;
+}
+
+.inputan:focus{
+	border: 2px solid #663b1d;
 }
 
 .comment-name textarea{
@@ -297,13 +307,44 @@ hr{
 	height: 100px;
 	padding: 10px;
 	border-radius: 10px;
-	border:2px solid #663b1d;
+	border:2px solid #B45600;
+	color: #000000;
+	outline: none;
+	font-size: 16px;
 }
 
 .comment-name textarea:focus{
+	border: 2px solid #663b1d;
+}
+
+/*Tombol kirim*/
+.send-button-float{
+	width: 800px;
+}
+
+.send-button{
+	float: right;
+	margin-left: 10px;
+	height: 36px;
+	width: 100px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #B45600;
+	border-radius: 15px;
+	font-size: 14px;
+	font-family: 'EB Garamond', serif;
+	color: white;
+	border: none;
+}
+
+.send-button:hover{
+	background-color: #663b1d;
+}
+
+.send-button:active{
 	outline-style: solid;
 	outline-color: #965628;
-	outline-width: 1px;
+	outline-width: 3px;
 }
 
 /*Footer*/
