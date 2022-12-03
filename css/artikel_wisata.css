@@ -2,7 +2,7 @@ body {
     font-family: 'EB Garamond', serif;
     margin: 0;
     padding: 0;
-    background-color: #ffff;
+    background-color: rgb(255, 255, 255);
 }
 
 /*navbar*/
