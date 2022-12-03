@@ -7,10 +7,10 @@ body {
 
 /*navbar*/
 .navbar-1{
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-bottom: 15px;
+	padding-bottom: 10px;
 	display: block;
 	overflow: hidden;
 	top: 0;
