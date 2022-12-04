@@ -1,9 +1,10 @@
 /*body*/
 body{
 	font-family: 'EB Garamond', serif;
+	background-color: rgb(255, 255, 255);
 }
 
-/*navbar*/
+/*Navbar*/
 .navigation-1{
 	padding-top: 10px;
 	padding-left: 50px;
@@ -52,6 +53,11 @@ body{
 	color: #B45600;
 }
 
+.link-navigation-1-wisata:hover{
+	color: #B45600;
+	padding-bottom: 5px;
+}
+
 a{
 	text-decoration: none;
 }
@@ -64,4 +70,52 @@ a{
 	color: #B45600;
 	padding-bottom: 5px;
 	/*border-bottom: 1px solid #B45600;*/
+}
+
+/*Jumbotron*/
+.jumbotron-1{
+    background-image: url(../pict/fatahillah.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+/*Icon Reservasi Tiket*/
+.all{
+	margin: -100px auto;
+	padding: 50px 25px;
+	width: 1200px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.judul h1{
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.list-nomor{
+	margin: 30px auto;
+	text-align: center;
+}
+
+.list-nomor ul{
+	padding: 0;
+}
+
+.list-nomor ul li{
+	text-decoration: none;
+	display: inline-block;
+	width: 300px;
+	margin: 0;
+	border-radius: 50px;
+}
+
+.active-nomor{
+	background-color: aquamarine;
+}
+
+.no-active-nomor{
+	background-color: blueviolet;
 }
