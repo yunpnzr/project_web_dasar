@@ -50,7 +50,11 @@ body {
 	margin-left: 35px;
 }
 
-.link-navigation-1-wisata{
+.link-navigation-1-aktif{
+	color: #B45600;
+}
+
+.link-navigation-1-aktif:hover{
 	color: #B45600;
 }
 
