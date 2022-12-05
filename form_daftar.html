@@ -91,26 +91,148 @@
                 </table>
 
                 <!--Cek harga tiket-->
-                <form class="form1" action="">
-                    <label for="nama_wisata" class="tempat_wisata">Tempat Wisata</label>
-                    <select name="tempat_wisata" id="tempat_wisata">
-                        <option value="Monumen Nasional">Monumen Nasional</option>
-                        <option value="Museum Fatahillah">Museum Fatahillah</option>
-                        <option value="Ragunan">Ragunan</option>
-                        <option value="TMII">Taman Mini Indonesia Indah</option>
-                    </select>
-              
-                    <label for="pengunjung_dewasa" class="pengunjung_dewasa">Jumlah Pengunjung Dewasa</label>
-                    <input class="pengunjung" type="number" id="pengunjung_dewasa" name="pengunjung_dewasa">
-
-                    <label for="pengunjung_anak" class="pengunjung_anak">Jumlah Pengunjung Dewasa</label>
-                    <input class="pengunjung" type="number" id="pengunjung_anak" name="pengunjung_anak">
-              
-                    <input class="button" type="button" onclick="hitung()" name="kirim" value="Hitung Harga">
-                </form>
+                <div class="formulir">
+                    <h5>Kalkulator Hitung Tiket</h5>
+                    <form class="form1" action="" id="formPemesanan" name="formPemesanan" enctype="multipart/form-data">
+                        <label for="nama_wisata" class="tempat_wisata">Tempat Wisata</label>
+                        <select class="" name="tempat_wisata" id="tempat_wisata" onchange ="return harga()">
+                            <option value="Monumen Nasional">Monumen Nasional</option>
+                            <option value="Museum Fatahillah">Museum Fatahillah</option>
+                            <option value="Ragunan">Ragunan</option>
+                            <option value="TMII">Taman Mini Indonesia Indah</option>
+                        </select>
+    
+                        <label for="harga" class="harga">Harga Tiket Dewasa</label>
+                        <p class="pengunjung">Rp. <span id="wisata_dewasa"></span></p>
+    
+                        <label for="harga" class="harga">Harga Tiket Anak</label>
+                        <p class="pengunjung">Rp. <span id="wisata_anak"></span></p>
+                  
+                        <label for="pengunjung_dewasa" class="pengunjung_dewasa">Jumlah Pengunjung Dewasa</label>
+                        <input class="pengunjung" type="number" id="pengunjung_dewasa" name="pengunjung_dewasa">
+    
+                        <label for="pengunjung_anak" class="pengunjung_anak">Jumlah Pengunjung Anak</label>
+                        <input class="pengunjung" type="number" id="pengunjung_anak" name="pengunjung_anak">
+    
+                        <label for="total_harga" class="total_harga">Total Harga Tiket</label>
+                        <p class="pengunjung">Rp. <span id="total"></span></p>
+                  
+                        <script>
+                        </script>
+                    </form>
+                    <input class="button" type="button" onclick="hitung()" name="hitung" value="Hitung Harga">
+                </div>
             </div>
         </div>
+
+        <!--Berikutnya-->
+        <div class="right">
+            <a class="float-right-2" href="#">
+                <input type="button" value="Berikutnya" name="next" id="next">
+            </a>
+        </div>
     </div>
+
+     <!--Footer-->
+     <footer class="footer-distributed">
+        <div class="footer-left">
+            <img class="logo-size-footer" src="pict/logo.png" alt="logo seputar jakarta" srcset="">
+        </div>
+        <div class="footer-center">
+            <div class="footer-icons">
+                <i class="fa-brands fa-facebook-f"></i> 
+                <i class="fa-brands fa-instagram"></i>  
+                <i class="fa-brands fa-twitter"></i>    
+                <i class="fa-regular fa-envelope"></i>  
+                <i class="fa-solid fa-phone"></i>  
+            </div>
+        </div>
+        <div class="footer-right">
+            <form class="form-langganan">
+                <input class="form-email" type="text" name="email" id="email" placeholder="input email anda">
+                <a href="#">
+                    <input class="form-button" type="button" value="Berlangganan" name="berlangganan" id="berlangganan">
+                </a>
+            </form>
+        </div>
+        <div class="fixed-footer">
+            <div class="container">
+                <p>&copy; 2022 All Rights Reserved by Tim 3 Pemrograman Web Dasar Kelas R5M</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Hitung harga tiket-->
+    <script>
+        function harga() {
+            var wisata=document.getElementById("tempat_wisata").value;
+
+            if (wisata=="Monumen Nasional") {
+                document.getElementById("wisata_dewasa").innerHTML="15000";
+                document.getElementById("wisata_anak").innerHTML="8000";
+            } 
+            else if (wisata=="Museum Fatahillah"){
+                document.getElementById("wisata_dewasa").innerHTML="5000";
+                document.getElementById("wisata_anak").innerHTML="2000";
+            }
+            else if (wisata=="Ragunan"){
+                document.getElementById("wisata_dewasa").innerHTML="4000";
+                document.getElementById("wisata_anak").innerHTML="3000";
+            }
+            else if (wisata=="TMII"){
+                document.getElementById("wisata_dewasa").innerHTML="25000";
+                document.getElementById("wisata_anak").innerHTML="25000";
+            } else{
+                document.getElementById("wisata_dewasa").innerHTML="0";
+                document.getElementById("wisata_anak").innerHTML="0";
+            }
+        }
+
+        function hitung(){
+            let dewasa = document.getElementById("pengunjung_dewasa").value;
+            let anak = document.getElementById("pengunjung_anak").value;
+            var wisata=document.getElementById("tempat_wisata").value;
+            dewasa = parseInt(dewasa);
+            anak = parseInt(anak);
+
+            if (wisata=="Monumen Nasional") {
+                let harga_anak=8000;
+                let harga_dewasa=15000;
+                harga_anak = parseInt(harga_anak);
+                harga_dewasa = parseInt(harga_dewasa);
+                
+                total_harga = (harga_anak*anak)+(harga_dewasa*dewasa);
+                document.getElementById("total").innerHTML=total_harga;
+            } 
+            else if (wisata=="Museum Fatahillah"){
+                let harga_anak=2000;
+                let harga_dewasa=5000;
+                harga_anak = parseInt(harga_anak);
+                harga_dewasa = parseInt(harga_dewasa);
+                
+                total_harga = (harga_anak*anak)+(harga_dewasa*dewasa);
+                document.getElementById("total").innerHTML=total_harga;
+            }
+            else if (wisata=="Ragunan"){
+                let harga_anak=3000;
+                let harga_dewasa=4000;
+                harga_anak = parseInt(harga_anak);
+                harga_dewasa = parseInt(harga_dewasa);
+                
+                total_harga = (harga_anak*anak)+(harga_dewasa*dewasa);
+                document.getElementById("total").innerHTML=total_harga;
+            }
+            else if (wisata=="TMII"){
+                let harga_anak=25000;
+                let harga_dewasa=25000;
+                harga_anak = parseInt(harga_anak);
+                harga_dewasa = parseInt(harga_dewasa);
+                
+                total_harga = (harga_anak*anak)+(harga_dewasa*dewasa);
+                document.getElementById("total").innerHTML=total_harga;
+            }
+        }
+    </script>
 
     <!--Jquery-->
     <script>
