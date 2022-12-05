@@ -64,6 +64,16 @@ a{
 	/*border-bottom: 1px solid #B45600;*/
 }
 
+.link-navigation-1-aktif{
+	color: #B45600;
+	padding-bottom: 5px;
+}
+
+.link-navigation-1-aktif:hover{
+	color: #B45600;
+	padding-bottom: 5px;
+}
+
 /*Jumbotron*/
 .jumbotron-1{
     background-image: url(../pict/fatahillah.jpg);

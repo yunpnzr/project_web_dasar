@@ -1,7 +1,7 @@
 /*body*/
 body{
 	font-family: 'EB Garamond', serif;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(221, 221, 221);
 }
 
 /*Navbar*/
@@ -49,11 +49,11 @@ body{
 	margin-left: 35px;
 }
 
-.link-navigation-1-wisata{
+.link-navigation-1-aktif{
 	color: #B45600;
 }
 
-.link-navigation-1-wisata:hover{
+.link-navigation-1-aktif:hover{
 	color: #B45600;
 	padding-bottom: 5px;
 }
@@ -96,7 +96,7 @@ a{
 }
 
 .list-nomor{
-	margin: 30px auto;
+	margin: 50px auto;
 	text-align: center;
 }
 
@@ -108,14 +108,100 @@ a{
 	text-decoration: none;
 	display: inline-block;
 	width: 300px;
-	margin: 0;
+	margin-right: 20px;
+	margin-left: 20px;
 	border-radius: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .active-nomor{
-	background-color: aquamarine;
+	background-color: #B45600;
+	color: white;
 }
 
 .no-active-nomor{
-	background-color: blueviolet;
+	background-color: #949494;
+	color: rgb(222, 222, 222);
+}
+
+/*harga tiket*/
+.harga-tiket h3{
+	text-align: center;
+}
+
+.harga-tiket-tabel table{
+	margin: auto;
+	margin-top: 25px;
+}
+
+table{
+	border-collapse: collapse;
+	text-align: center;
+	width: 800px;
+}
+
+td{
+	font-size: 16px; 
+	border: 1px solid #DEDEDE; 
+	padding: 5px 5px; 
+	color: #303030;
+}
+
+th{
+	background-color: #B45600;
+	border: 1px solid #DEDEDE;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/*Cek Harga Tiket*/
+form {
+	display: grid;
+	padding: 1em;
+	background: #f9f9f9;
+	border: 1px solid #c1c1c1;
+	margin: 2rem auto 0 auto;
+	width: 800px;
+	padding: 1em;
+	grid-template-columns: 200px 1fr;
+	grid-gap: 16px;
+}
+
+form input {
+	background: #fff;
+	border: 1px solid #9c9c9c;
+}
+
+form .button {
+	background: lightgrey;
+	padding: 0.7em;
+	width: 100%;
+	border: 0;
+}
+
+form .button:hover {
+	background: gold;
+}
+
+label {
+	grid-column: 1 / 2;
+	padding: 0.5em 0.5em 0.5em 0;
+}
+
+input, .button {
+	grid-column: 2 / 3;
+}
+
+.pengunjung{
+	padding: 0.7em;
+	margin-bottom: 0.5rem;
+}
+
+.pengunjung:focus {
+	outline: 3px solid gold;
 }

@@ -29,8 +29,8 @@
             <ul>
                 <li><a href="index.html" class="link-navigation-1">Home</a></li>
                 <li><a href="#" class="link-navigation-1">Sejarah</a></li>
-                <li><a href="#" class="link-navigation-1">Budaya</a></li>
-                <li><a href="wisata.html" class="link-navigation-1-wisata">Wisata</a></li>
+                <li><a href="budaya.html" class="link-navigation-1">Budaya</a></li>
+                <li><a href="wisata.html" class="link-navigation-1-aktif">Wisata</a></li>
                 <li><a href="#" class="link-navigation-1">Rute</a></li>
                 <li><a href="#" class="link-navigation-1">Kuliner</a></li>
             </ul>
@@ -47,10 +47,68 @@
         </div>
         <div class="list-nomor">
             <ul>
-                <li class="active-nomor">Lihat Harga</li>
-                <li class="no-active-nomor">Pesan Tiket</li>
-                <li class="no-active-nomor">Selesai</li>
+                <li class="active-nomor">Harga Tiket</li><!--Harga Tiket-->
+                <li class="no-active-nomor">Pesan Tiket</li><!--Pesan Tiket-->
+                <li class="no-active-nomor">Selesai</li><!--Selesai-->
             </ul>
+        </div>
+        <div class="harga-tiket">
+            <h3>Harga Tiket</h3>
+            <div class="harga-tiket-tabel">
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Tempat Wisata</th>
+                            <th colspan="2">Harga Tiket</th>
+                        </tr>
+                        <tr>
+                            <th>Dewasa</th>
+                            <th>Anak</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monumen Nasional</td>
+                            <td>Rp.15000</td>
+                            <td>Rp.8000</td>
+                        </tr>
+                        <tr>
+                            <td>Museum Fatahillah</td>
+                            <td>Rp.5000</td>
+                            <td>Rp.2000</td>
+                        </tr>
+                        <tr>
+                            <td>Ragunan</td>
+                            <td>Rp.4000</td>
+                            <td>Rp.3000</td>
+                        </tr>
+                        <tr>
+                            <td>Taman Mini Indonesia Indah</td>
+                            <td>Rp.25000</td>
+                            <td>Rp.25000</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!--Cek harga tiket-->
+                <form class="form1" action="">
+                    <label for="nama_wisata" class="tempat_wisata">Tempat Wisata</label>
+                    <select name="tempat_wisata" id="tempat_wisata">
+                        <option value="Monumen Nasional">Monumen Nasional</option>
+                        <option value="Museum Fatahillah">Museum Fatahillah</option>
+                        <option value="Ragunan">Ragunan</option>
+                        <option value="TMII">Taman Mini Indonesia Indah</option>
+                    </select>
+              
+                    <label for="pengunjung_dewasa" class="pengunjung_dewasa">Jumlah Pengunjung Dewasa</label>
+                    <input class="pengunjung" type="number" id="pengunjung_dewasa" name="pengunjung_dewasa">
+
+                    <label for="pengunjung_anak" class="pengunjung_anak">Jumlah Pengunjung Dewasa</label>
+                    <input class="pengunjung" type="number" id="pengunjung_anak" name="pengunjung_anak">
+              
+                    <input class="button" type="button" onclick="hitung()" name="kirim" value="Hitung Harga">
+                </form>
+            </div>
         </div>
     </div>
 
