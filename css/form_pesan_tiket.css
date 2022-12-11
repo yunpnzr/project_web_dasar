@@ -127,7 +127,50 @@ a{
 	color: rgb(222, 222, 222);
 }
 
+/*form*/
 
+.formulir-daftar{
+	margin-left: 25px;
+	margin-right: 25px;
+	box-sizing: border-box;
+}
+
+.text{
+	width: 100%;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	resize: vertical;
+}
+
+.label{
+	padding: 12px 12px 12px 0;
+  	display: inline-block;
+}
+
+.baris:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.kolom-1{
+	float: left;
+  	width: 25%;
+  	margin-top: 6px;
+}
+
+.kolom-2{
+	float: right;
+  	width: 75%;
+ 	margin-top: 6px;
+}
+
+.submit{
+	margin-top: 10px;
+  cursor: pointer;
+  float: right;
+}
 
 /*Footer*/
 .footer{
