@@ -8,7 +8,7 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="../project_web_dasar/css/form_pesan_tiket.css">
+    <link rel="stylesheet" href="../project_web_dasar/css/hasil_pesanan.css">
     <!--font awesome-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
@@ -48,91 +48,89 @@
         <div class="list-nomor">
             <ul>
                 <li class="no-active-nomor">Harga Tiket</li><!--Harga Tiket-->
-                <li class="active-nomor">Pesan Tiket</li><!--Pesan Tiket-->
-                <li class="no-active-nomor">Selesai</li><!--Selesai-->
+                <li class="no-active-nomor">Pesan Tiket</li><!--Pesan Tiket-->
+                <li class="active-nomor">Selesai</li><!--Selesai-->
             </ul>
         </div>
 
-        <!--Form Pesan-->
+        <!--Output Pesan-->
         <div class="formulir-daftar">
-            <form action="" class="form-daftar">
+            <div class="cetak-tiket">
                 <div class="baris">
                     <div class="kolom-1">
-                        <label for="nama" class="label">Nama</label>
+                        <label for="nama" class="label">Nama Pemesan</label>
                     </div>
                     <div class="kolom-2">
-                        <input class="text" type="text" name="nama" id="nama">
-                    </div>
-                </div>
-                <div class="baris">
-                    <div class="kolom-1">
-                        <label for="nik" class="label">Nomor Induk Kependudukan</label>
-                    </div>
-                    <div class="kolom-2">
-                        <input class="text" type="text" name="nik" id="nik">
+                        <p class="label">: Budi Susanto</p>
                     </div>
                 </div>
                 <div class="baris">
                     <div class="kolom-1">
-                        <label for="alamat" class="label">Alamat</label>
+                        <label for="nama" class="label">Nomor Induk Kependudukan</label>
                     </div>
                     <div class="kolom-2">
-                        <textarea class="textarea" name="alamat" id="alamat"></textarea>
+                        <p class="label">: 327xxxxxxxxxxxx2</p>
                     </div>
                 </div>
                 <div class="baris">
                     <div class="kolom-1">
-                        <label for="wisata" class="label">Tempat Wisata</label>
+                        <label for="nama" class="label">Alamat</label>
                     </div>
                     <div class="kolom-2">
-                        <select class="text" name="tempat_wisata" id="tempat_wisata" onchange ="return harga()">
-                            <option value="Monumen Nasional">Monumen Nasional</option>
-                            <option value="Museum Fatahillah">Museum Fatahillah</option>
-                            <option value="Ragunan">Ragunan</option>
-                            <option value="TMII">Taman Mini Indonesia Indah</option>
-                        </select>
+                        <p class="label">: Jalan jalan</p>
                     </div>
                 </div>
                 <div class="baris">
                     <div class="kolom-1">
-                        <label for="harga_tiket_dewasa" class="label">Harga Tiket Dewasa</label>
+                        <label for="nama" class="label">Tempat Wisata</label>
                     </div>
                     <div class="kolom-2">
-                        <div class="harga">Rp. <span id="wisata_dewasa"></span></div> 
+                        <p class="label">: Monumen Nasional</p>
                     </div>
                 </div>
                 <div class="baris">
                     <div class="kolom-1">
-                        <label for="harga_tiket_anak" class="label">Harga Tiket Anak</label>
+                        <label for="nama" class="label">Harga Tiket Dewasa</label>
                     </div>
                     <div class="kolom-2">
-                        <div class="harga">Rp. <span id="wisata_anak"></span></div> 
+                        <p class="label">: Rp.15000</p>
                     </div>
                 </div>
                 <div class="baris">
                     <div class="kolom-1">
-                        <label for="jumlah_dewasa" class="label">Jumlah Pengunjung Dewasa</label>
+                        <label for="nama" class="label">Harga Tiket Anak</label>
                     </div>
                     <div class="kolom-2">
-                        <input class="text" type="text" name="pengunjung_dewasa" id="pengunjung_dewasa">
+                        <p class="label">: Rp.8000</p>
                     </div>
                 </div>
                 <div class="baris">
                     <div class="kolom-1">
-                        <label for="jumlah_anak" class="label">Jumlah Pengunjung Anak-Anak</label>
+                        <label for="nama" class="label">Jumlah Pengunjung Dewasa</label>
                     </div>
                     <div class="kolom-2">
-                        <input class="text" type="text" name="pengunjung_anak" id="pengunjung_anak">
+                        <p class="label">: 2 Orang</p>
                     </div>
                 </div>
                 <div class="baris">
-                    <a href="hasil_pesanan.html">
-                        <input class="submit" type="button" value="Pesan Tiket">
-                    </a>
+                    <div class="kolom-1">
+                        <label for="nama" class="label">Jumlah Pengunjung Anak</label>
+                    </div>
+                    <div class="kolom-2">
+                        <p class="label">: 2 Orang</p>
+                    </div>
                 </div>
-            </form>
+                <div class="baris">
+                    <div class="kolom-1">
+                        <label for="nama" class="label">Total Harga Tiket</label>
+                    </div>
+                    <div class="kolom-2">
+                        <p class="label">: Rp.46000</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+
     </div>
 
     <!--Footer-->
@@ -164,7 +162,7 @@
         </div>
     </footer>
 
-    <script src="../project_web_dasar/js/harga.js"></script>
+    <script src="../project_web_dasar/js/cetak_kartu.js"></script>
 
     <!--Jquery-->
     <script>

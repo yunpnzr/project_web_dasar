@@ -4,6 +4,10 @@ body{
 	background-color: rgb(221, 221, 221);
 }
 
+p{
+    margin: 0;
+}
+
 /*Navbar*/
 .navigation-1{
 	padding-top: 10px;
@@ -128,44 +132,10 @@ a{
 }
 
 /*form*/
-
 .formulir-daftar{
 	margin-left: 50px;
 	margin-right: 50px;
 	box-sizing: border-box;
-}
-
-.text{
-	width: 100%;
-  	padding: 12px;
-  	border: 2px solid #ccc;
-  	border-radius: 4px;
-  	resize: vertical;
-	border-radius: 10px;
-	outline: none;
-}
-
-select{
-	background-color: white;
-	padding: 2px;
-}
-
-.textarea{
-	width: 100%;
-	padding: 10px;
-	height: 100px;
-	resize: none;
-	border-radius: 10px;
-	outline: none;
-	border:2px solid #ccc;
-}
-
-.text:focus{
-	border: 2px solid #B45600;
-}
-
-.textarea:focus{
-	border: 2px solid #B45600;
 }
 
 .label{
@@ -173,44 +143,28 @@ select{
   	display: inline-block;
 }
 
-.harga{
-	padding-top: 12px;
+.baris{
+    width: 600px;
+    margin: auto;
+    padding-left: 75px;
 }
 
 .baris:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+}
 
 .kolom-1{
 	float: left;
-  	width: 25%;
+  	width: 50%;
   	margin-top: 6px;
 }
 
 .kolom-2{
 	float: right;
-  	width: 75%;
+  	width: 50%;
  	margin-top: 6px;
-}
-
-.submit{
-	margin-top: 10px;
-	float: right;
-	height: 45px;
-	padding-left: 25px;
-	padding-right: 25px;
-	background-color: #c77223;
-	border-radius: 5px;
-	font-size: 16px;
-	color: white;
-	border:none;
-}
-
-.submit:hover{
-	background: #B45600;
-	color: white;
 }
 
 /*Footer*/
