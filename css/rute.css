@@ -1,7 +1,6 @@
 /*body*/
 body{
 	font-family: 'EB Garamond', serif;
-	background-color: rgb(221, 221, 221);
 }
 
 /*Navbar*/
@@ -70,4 +69,183 @@ a{
 	color: #B45600;
 	padding-bottom: 5px;
 	/*border-bottom: 1px solid #B45600;*/
+}
+
+/*Jumbotron*/
+.jumbotron-1{
+    background-image: url(../pict/fatahillah.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+/*Content*/
+.content{
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+.judul{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.pilihan-rute{
+	text-align: center;
+}
+
+.pilihan-rute li{
+	display: inline;
+    list-style-type: none;
+}
+
+/*gambar*/
+.rute-icon{
+	padding: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 20px;
+}
+
+.rute-icon:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gambar{
+	width: 118px;
+	height: 110px;
+}
+
+/*Footer*/
+.footer{
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-distributed{
+	background-color: blanchedalmond;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: thin 16px sans-serif;
+	padding: 50px 50px 20px 50px;
+	
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed .logo-size-footer{
+	height: 125px;
+	width: 150px;
+}
+
+
+/* Footer Center */
+.footer-distributed .footer-center{
+	width: 35%;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+.footer-distributed .footer-center i{
+	font-size: 30px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin: 10px 10px;
+	vertical-align: middle;
+	color:rgb(238, 203, 151);
+}
+
+.footer-distributed .footer-center i:hover{
+	color: #965628;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+	margin-left: -120px;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right{
+	width: 30%;
+	text-align: center;
+	margin: 40px 10px;
+}
+
+/*.fixed-footer {
+    width: 100%;
+    position: relative;
+    background:blanchedalmond;
+    margin: 0 10px 0 0;
+    padding: 10px 0;
+    color: black;
+    text-align: center;
+  }
+  .fixed-footer {
+    bottom: 0;
+  }*/
+
+.fixed-footer{
+	text-align: center;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+/*Form Footer*/
+.form-email{
+	width: 265px;
+	height: 36px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	border: none;
+	font-size: 14px;
+	font-family: 'EB Garamond', serif;
+	color: #965628;
+}
+
+.form-email:focus{
+	outline-style: solid;
+	outline-color: #965628;
+	outline-width: 3px;
+}
+
+/*form button*/
+.form-button{
+	margin-left: 10px;
+	height: 36px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #965628;
+	border-radius: 15px;
+	font-size: 14px;
+	font-family: 'EB Garamond', serif;
+	color: white;
+	border:none;
+}
+
+.form-button:hover{
+	background-color: #663b1d;
+}
+
+.form-button:focus{
+	outline-style: solid;
+	outline-color: #965628;
+	outline-width: 3px;
 }

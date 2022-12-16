@@ -30,11 +30,85 @@
                 <li><a href="index.html" class="link-navigation-1">Home</a></li>
                 <li><a href="artikel_sejarah.html" class="link-navigation-1">Sejarah</a></li>
                 <li><a href="budaya.html" class="link-navigation-1">Budaya</a></li>
-                <li><a href="wisata.html" class="link-navigation-1-aktif">Wisata</a></li>
-                <li><a href="rute.html" class="link-navigation-1">Rute</a></li>
+                <li><a href="wisata.html" class="link-navigation-1">Wisata</a></li>
+                <li><a href="rute.html" class="link-navigation-1-aktif">Rute</a></li>
                 <li><a href="kuliner.html" class="link-navigation-1">Kuliner</a></li>
             </ul>
         </div>
     </div>
+
+    <!--Jumbotron-->
+    <div class="jumbotron-1"></div>
+
+    <!--Content-->
+    <div class="content">
+        <div class="judul">
+            <h1>Rute & Moda Angkutan Massal Jakarta</h1>
+        </div>
+        <div class="pilihan-rute">
+            <ul>
+                <li class="rute-icon">
+                    <a target="_blank" href="">
+                        <img class="gambar" src="pict/MRT_Jakarta_logo_vertical.png" alt="MRT" srcset="">
+                    </a>
+                </li>
+                <li class="rute-icon">
+                    <a href="" target="_blank">
+                        <img class="gambar" src="pict/krl.jpg" alt="KRL" srcset="">
+                    </a>
+                </li>
+                <li class="rute-icon">
+                    <a target="_blank" href="">
+                        <img class="gambar" src="pict/tj.png" alt="Transjakarta">
+                    </a>
+                </li>
+                <li class="rute-icon">
+                    <a target="_blank" href="">
+                        <img class="gambar" src="pict/lrt.png" alt="LRT">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <img class="logo-size-footer" src="pict/logo.png" alt="logo seputar jakarta" srcset="">
+        </div>
+        <div class="footer-center">
+            <div class="footer-icons">
+                <i class="fa-brands fa-facebook-f"></i> 
+                <i class="fa-brands fa-instagram"></i>  
+                <i class="fa-brands fa-twitter"></i>    
+                <i class="fa-regular fa-envelope"></i>  
+                <i class="fa-solid fa-phone"></i>  
+            </div>
+        </div>
+        <div class="footer-right">
+            <form class="form-langganan">
+                <input class="form-email" type="text" name="email" id="email" placeholder="input email anda">
+                <a href="#">
+                    <input class="form-button" type="button" value="Berlangganan" name="berlangganan" id="berlangganan">
+                </a>
+            </form>
+        </div>
+        <div class="fixed-footer">
+            <div class="container">
+                <p>&copy; 2022 All Rights Reserved by Tim 3 Pemrograman Web Dasar Kelas R5M</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Jquery-->
+    <script>
+        $(window).scroll(function(){
+            if ($(this).scrollTop()>250){
+                $('#navbar-1').addClass('navbar-background-1');
+            } else{
+                $('#navbar-1').removeClass('navbar-background-1');
+            }
+        });    
+    </script>
 </body>
 </html>
