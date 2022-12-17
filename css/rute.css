@@ -82,8 +82,8 @@ a{
 /*Content*/
 .content{
 	margin-top: 100px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-bottom: 100px;
 }
 
@@ -104,8 +104,8 @@ a{
 /*gambar*/
 .rute-icon{
 	padding: 60px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 	border-radius: 20px;
 }
 
