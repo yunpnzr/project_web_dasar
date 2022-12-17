@@ -2,7 +2,7 @@ body {
     font-family: 'EB Garamond', serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: rgb(255, 255, 255);
 }
 
 /*navbar*/
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-background-1{
-	background-color: #FFCEB2;
+	background-color: white;
 }
 
 .logo {
@@ -62,6 +62,16 @@ a{
 	color: #B45600;
 	padding-bottom: 5px;
 	/*border-bottom: 1px solid #B45600;*/
+}
+
+.link-navigation-1-aktif{
+	color: #B45600;
+	padding-bottom: 5px;
+}
+
+.link-navigation-1-aktif:hover{
+	color: #B45600;
+	padding-bottom: 5px;
 }
 
 /*Jumbotron*/

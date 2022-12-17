@@ -81,163 +81,87 @@ a{
 	height: 900px;
 }
 
-/*Content*/
-.content-main{
-	font-family: 'Source Sans Pro', sans-serif;
-	position: relative;
-	width: 1250px;
-	margin: 10px auto;
-	/*background-color: blue;*/
-	/*background-color: yellow;*/
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-right: 25px;
-	padding-left: 25px;
-}
-
-/*.isi-content{
+/*Judul*/
+.judul-1{
+	margin-top: 100px;
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.judul{
+    letter-spacing: 5px;
+	font-weight: bold;
+}
+
+/*Full Content*/
+.content-all{
 	margin-bottom: 50px;
-}*/
-
-.judul-main{
-	margin-bottom: 30px;
 }
 
-.judul-main h1{
-	color: #B45600;
-	font-weight: bold;
-}
-
-.float-left-1{
-	width: 800px;
-	border-right: 1px solid rgb(199, 199, 199);
-}
-
-.content-article{
-	margin-right: 50px;
-}
-
-.content-article p{
-	text-align: justify; 
-}
-
-/*Creator*/
-.creator p{
-	font-style: italic;
-	font-size: 14px;
-}
-
-.float-right-1{
-	width: 400px;
-	float: right;
-}
-
-/*Profil penulis*/
-.card-nama{
-	margin-left: 20px;
-	/*background-color: aquamarine;*/
-	padding-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.card-nama h3{
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-.card-nama img{
-	height: 90px;
-	width: 90px;
-	float: left;
-	margin-right: 10px;
-	border-radius: 10px;
-}
-
-.card-nama h4{
-	font-size: 16px;
-	font-weight: bold;
-}
-
-.card-nama p{
-	font-size: 13px;
-	text-align: justify; 
-}
-
+/*Content Wisata*/
 hr{
 	margin-left: 50px;
-}
-
-/*Artikel lainnya*/
-.content-article-liyane{
-	margin-left: 20px;
-	/*background-color: yellow;*/
-	padding-left: 10px;
-	padding-right: 10px;
-	/*text-align: justify;*/
-}
-
-.content-article-liyane h3{
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 25px;
-}
-
-.picture-content-wisata img{
-	width: 110px;
-	height: 110px;
-	border-radius: 10px;
+	margin-right: 50px;
+	text-align: center;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 25px;
 }
 
 .content-wisata{
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
 	display: flex;
-	margin-bottom: 20px;
+}
+
+.picture-content-wisata{
+	margin-right: 25px;
+}
+
+.picture-content-wisata img{
+	width: 350px;
+	height: 250px;
+	border-radius: 10px;
 }
 
 .text-content-wisata{
-	margin-left: 15px;
-	margin-top: -6px;
+	margin-left: 25px;
 }
 
 .tagg{
 	display: inline-flex;
-	font-size: 8px;
+	font-size: 14px;
 }
 
 .tag-1 p{
 	margin-right: 10px;
-	margin-bottom: 5px;
-	padding: 2px 5px;
+	padding: 5px;
 	background-color: #D9D9D9;
 	border-radius: 5px;
 }
 
 .tag-2 p{
 	margin-right: 10px;
-	margin-bottom: 5px;
-	padding: 2px 5px;
+	padding: 5px;
 	background-color: #D9D9D9;
 	border-radius: 5px;
 }
 
 .judul-content a h2{
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 24px;
 	color: black;
-	margin-bottom: 5px;
 }
 
-.judul-content a h2:hover{
-	color: #B45600;
+.creator-content-wisata p{
+	font-style: italic;
+	font-size: 14px;
 }
 
 .text-content-main p{
-	font-size: 10px;
-	margin-bottom: 5px;
+	font-size: 16px;
 }
 
 .text-content-main p a{
@@ -250,111 +174,6 @@ hr{
 	font-style: italic;
 	text-decoration: none;
 	color: #B45600;
-}
-
-/*Tags*/
-.tag-artikel{
-	margin-left: 20px;
-	/*background-color: yellow;*/
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.tag-artikel h2{
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 15px;
-}
-
-.tag-artikel .tagg .tag-1 p{
-	font-size: 14px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 20px;
-	padding-left: 20px;
-	background-color: #B45600;
-	color: antiquewhite;
-}
-
-/*Komentar*/
-.comment{
-	margin-top: 50px;
-}
-
-.comment h2{
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.comment-name{
-	margin-top: 20px;
-}
-
-.comment-name p{
-	margin-bottom: 15px;
-	font-size: 18px;
-}
-
-.inputan{
-	margin-top: 10px;
-	width: 800px;
-	padding: 10px;
-	border-radius: 10px;
-	border:2px solid #B45600;
-	color: #000000;
-	outline: none;
-	font-size: 16px;
-}
-
-.inputan:focus{
-	border: 2px solid #663b1d;
-}
-
-.comment-name textarea{
-	margin-top: 10px;
-	resize: none;
-	width: 800px;
-	height: 100px;
-	padding: 10px;
-	border-radius: 10px;
-	border:2px solid #B45600;
-	color: #000000;
-	outline: none;
-	font-size: 16px;
-}
-
-.comment-name textarea:focus{
-	border: 2px solid #663b1d;
-}
-
-/*Tombol kirim*/
-.send-button-float{
-	width: 800px;
-}
-
-.send-button{
-	float: right;
-	margin-left: 10px;
-	height: 36px;
-	width: 100px;
-	padding-left: 15px;
-	padding-right: 15px;
-	background-color: #B45600;
-	border-radius: 15px;
-	font-size: 14px;
-	font-family: 'EB Garamond', serif;
-	color: white;
-	border: none;
-}
-
-.send-button:hover{
-	background-color: #663b1d;
-}
-
-.send-button:active{
-	outline-style: solid;
-	outline-color: #965628;
-	outline-width: 3px;
 }
 
 /*Footer*/

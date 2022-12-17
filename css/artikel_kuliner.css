@@ -75,7 +75,7 @@ a{
 
 /*Jumbotron*/
 .jumbotron-1{
-    background-image: url(../pict/fatahillah.jpg);
+    background-image: url(../pict/kerak_telor.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 900px;
@@ -147,7 +147,7 @@ a{
 .card-nama h3{
 	font-size: 18px;
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .card-nama img{
@@ -156,11 +156,6 @@ a{
 	float: left;
 	margin-right: 10px;
 	border-radius: 10px;
-}
-
-.card-nama h4{
-	font-size: 16px;
-	font-weight: bold;
 }
 
 .card-nama p{
