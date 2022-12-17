@@ -74,7 +74,8 @@ a{
 
 /*Jumbotron*/
 .jumbotron-1{
-    background-image: url(../pict/fatahillah_sore.jpg);
+    background: rgba(123, 123, 123, 0.7) url(../pict/batavia-tempo-dulu.png);
+	background-blend-mode: darken;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 900px;
